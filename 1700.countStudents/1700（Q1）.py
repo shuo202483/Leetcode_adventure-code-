@@ -10,3 +10,4 @@ class Solution:
             if sandwiches and sandwiches[0] not in students:
                 return len(students)
         return 0
+
