@@ -1,0 +1,19 @@
+heapq 提供的是最小堆（min-heap）——一棵完全二叉树，满足：
+对于树上每个节点 i，都有 val[i] ≤ val[2i+1] 且 val[i] ≤ val[2i+2]。根节点 val[0] 永远是全局最小值。
+
+heapq 只认最小堆（二叉堆，树高 log n，单次 push/pop 都是 O(log n)）
+
+要最大堆 → “负数 trick”：存 -x，取时再 -x 还原。
+
+
+时间
+建堆：heapify O(n)
+主循环：
+– 每轮 2 次 pop + 1 次 push → 3×O(log n)
+– 共 ≤ n-1 轮
+– 总 O(n log n)
+整体 T(n) = O(n log n)。
+
+空间
+只用一个长度为 n 的堆数组，无额外递归或复制。
+– S(n) = O(n)。
