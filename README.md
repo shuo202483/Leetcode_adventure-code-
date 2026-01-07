@@ -3,3 +3,4 @@
 | 1700 | 学生吃不到午餐 | Python | 队列模拟 | [查看](1700.countStudents/README.md) |
 | 2073 | 买票所需时间 | Python | 队列模拟 、数学| [查看](2073.timeNeededToBuyTickets/README.md) |
 | 232 | 用栈模拟队列| Python | 栈 | [查看](232.MyQueqe/README.me) |
+| 1046 | 最后一块石头的重量| Python | 堆 | [查看](1046.lastStoneWeight/README.me) |
