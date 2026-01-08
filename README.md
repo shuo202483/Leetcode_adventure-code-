@@ -4,3 +4,4 @@
 | 2073 | 买票所需时间 | Python | 队列模拟 、数学| [查看](2073.timeNeededToBuyTickets/README.md) |
 | 232 | 用栈模拟队列| Python | 栈 | [查看](232.MyQueqe/README.me) |
 | 1046 | 最后一块石头的重量| Python | 堆 | [查看](1046.lastStoneWeight) |
+| 373 | 查找和最小的k对数字| Python | 堆 | [查看](373.py) |
