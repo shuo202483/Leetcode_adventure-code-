@@ -14,3 +14,8 @@ class Solution:
 s=Solution()
 print(s.timeRequiredToBuy([2,3,2],2))
 # print(s.timeRequiredToBuy([5,1,1,1],0))
+
+class Solution:
+    def timeRequiredToBuy(self, tickets:[int], k: int):
+        tk=tickets[k]
+        return sum((min(t,tk-(i>k))for i,t in enumerate(tickets)))
