@@ -9,3 +9,4 @@
 | 232 | 用栈模拟队列| Python | 栈 | [查看](232.MyQueqe/README.me) |
 | 1046 | 最后一块石头的重量| Python | 堆 | [查看](1046.lastStoneWeight) |
 | 373 | 查找和最小的k对数字| Python | 堆 | [查看](373.py) |
+| 1354 | 多次求和构造目标数组| Python | 最大堆 | [查看](1354.py) |
