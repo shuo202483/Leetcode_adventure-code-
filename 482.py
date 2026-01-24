@@ -13,4 +13,8 @@ class Solution:
 
 
 s=Solution()
+
 print(s.licenseKeyFormatting("2-5g-3-J",2))
+
+
+#逆向思维从后往前推，先满足后面
