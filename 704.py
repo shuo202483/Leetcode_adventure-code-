@@ -12,3 +12,9 @@ class Solution:
                 l = mid+1
 
         return -1
+
+
+"""
+闭区间在处理mid是需要+1或-1
+开区间直接获取mid
+"""
