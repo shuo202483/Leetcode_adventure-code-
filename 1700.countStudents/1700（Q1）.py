@@ -11,3 +11,18 @@ class Solution:
                 return len(students)
         return 0
 
+
+#计数的方法完成
+class Solution:
+    def countStudents(self, students, sandwiches):
+        from collections import Counter
+        count = Counter(students)
+        n = len(sandwiches)
+
+        for i, s in enumerate(sandwiches):
+            if count[s] == 0:
+                # 没人要这个三明治了，停止
+                return n - i
+            count[s] -= 1
+
+        return 0
